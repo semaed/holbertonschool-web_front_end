@@ -92,14 +92,13 @@ a:active {
 }
 
 .navbar-menu {
-  float: right; /* Float navbar-menu to the right */
+  float: right; /* Float to the right */
 }
 
 .nav {
-  margin: 0; /* Set margin on all sides to 0 */
-  padding: 0; /* Set padding on all sides to 0 */
+  margin: 0; /* Margin on all sides set to 0 */
+  padding: 0; /* Padding on all sides set to 0 */
   text-align: center; /* Center align the text */
-  list-style: none; /* Remove the default list styling */
 }
 
 .nav-item {
@@ -113,11 +112,11 @@ a:active {
 
 .nav-link {
   display: block; /* Set display to block */
-  padding: var(--root-element) var(--root-element) calc(var(--root-element) / 2) var(--root-element); /* Set padding using root element values */
+  padding: calc(var(--root-element) / 2) var(--root-element) var(--root-element) var(--root-element); /* Set padding for top, right, bottom, and left */
 }
 
 .nav-link:hover {
-  color: var(--nav-item-link-hover); /* Set foreground color on hover to nav-item-link-hover */
+  color: var(--nav-item-link-hover); /* Set foreground color value to nav-item-link-hover while hovering */
 }
 
 :root {
@@ -152,9 +151,9 @@ a:active {
   --nav-item-font-family: var(--font-family-title); /* Custom property for nav item font family */
   --nav-item-font-weight: var(--font-weight-bold); /* Custom property for nav item font weight */
   --nav-item-font-size: var(--font-size-medium); /* Custom property for nav item font size */
-  --nav-item-letter-spacing: calc(4% * var(--root-element)); /* Custom property for nav item letter spacing */
+  --nav-item-letter-spacing: calc(var(--root-element) * 0.04); /* Custom property for nav item letter spacing */
   --nav-item-display: inline-block; /* Custom property for nav item display */
-  --nav-item-margin: calc(3 * var(--root-element)) 0 0; /* Custom property for nav item margin */
+  --nav-item-margin: calc(var(--root-element) * 3) 0 0 0; /* Custom property for nav item margin */
   --nav-item-link-hover: var(--color-primary); /* Custom property for nav item link hover color */
 }
 
