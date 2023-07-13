@@ -1,4 +1,4 @@
-/* styles/3-style.css */
+/* styles/4-style.css */
 
 :root {
     --color-primary: #d73953;
@@ -7,14 +7,20 @@
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   
-  .section-tagline,
-  .card-category {
-    color: var(--color-primary);
+  body {
+    font-family: var(--font-family-base);
   }
   
-  body,
-  a {
-    color: var(--text-color);
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-family-title);
+    /* Add any additional styling for the section headings if needed */
   }
