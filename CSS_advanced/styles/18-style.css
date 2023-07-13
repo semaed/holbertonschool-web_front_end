@@ -108,7 +108,7 @@ a:active {
   font-size: var(--nav-item-font-size); /* Set font size to nav-item-font-size */
   letter-spacing: calc(var(--root-element) * 0.04); /* Set letter spacing to nav-item-letter-spacing */
   display: var(--nav-item-display); /* Set display to nav-item-display */
-  margin: var(--nav-item-margin) 0; /* Set margin on all sides to nav-item-margin */
+  margin: var(--nav-item-margin); /* Set margin on all sides to nav-item-margin */
 }
 
 .nav .nav-link {
