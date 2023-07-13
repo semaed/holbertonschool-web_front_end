@@ -1,6 +1,9 @@
 /* styles/4-style.css */
 
-  body {
+html {
+    scroll-behavior: smooth;
+}  
+body {
     color: var(--text-color);
     font-family: var(--font-family-base);
   }

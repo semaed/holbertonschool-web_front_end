@@ -1,5 +1,8 @@
 /* styles/2-style.css */
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     color: #161616;
   }
