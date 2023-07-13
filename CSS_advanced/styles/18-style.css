@@ -92,16 +92,17 @@ a:active {
 }
 
 .navbar-menu {
-  float: right; /* Float to the right */
+  float: right; /* Float navbar-menu to the right */
 }
 
 .nav {
-  margin: 0; /* Margin on all sides set to 0 */
-  padding: 0; /* Padding on all sides set to 0 */
-  text-align: center; /* Center align the text */
+  margin: 0; /* Set margin on all sides to 0 */
+  padding: 0; /* Set padding on all sides to 0 */
+  list-style: none; /* Remove the default list styling */
+  text-align: center; /* Center align the text */     
 }
 
-.nav-item {
+.nav .nav-item {
   font-family: var(--nav-item-font-family); /* Set font family to nav-item-font-family */
   font-weight: var(--nav-item-font-weight); /* Set font weight to nav-item-font-weight */
   font-size: var(--nav-item-font-size); /* Set font size to nav-item-font-size */
@@ -110,13 +111,13 @@ a:active {
   margin: var(--nav-item-margin); /* Set margin on all sides to nav-item-margin */
 }
 
-.nav-link {
+.nab .nav-link {
   display: block; /* Set display to block */
-  padding: calc(var(--root-element) / 2) var(--root-element) var(--root-element) var(--root-element); /* Set padding for top, right, bottom, and left */
+  padding: 0.5rem 1rem; /* Set padding using root element values */
 }
 
 .nav-link:hover {
-  color: var(--nav-item-link-hover); /* Set foreground color value to nav-item-link-hover while hovering */
+  color: var(--nav-item-link-hover); /* Set foreground color on hover to nav-item-link-hover */
 }
 
 :root {
@@ -151,9 +152,9 @@ a:active {
   --nav-item-font-family: var(--font-family-title); /* Custom property for nav item font family */
   --nav-item-font-weight: var(--font-weight-bold); /* Custom property for nav item font weight */
   --nav-item-font-size: var(--font-size-medium); /* Custom property for nav item font size */
-  --nav-item-letter-spacing: calc(var(--root-element) * 0.04); /* Custom property for nav item letter spacing */
+  --nav-item-letter-spacing: calc(4% * var(--root-element)); /* Custom property for nav item letter spacing */
   --nav-item-display: inline-block; /* Custom property for nav item display */
-  --nav-item-margin: calc(var(--root-element) * 3) 0 0 0; /* Custom property for nav item margin */
+  --nav-item-margin: calc(3 * var(--root-element)) 0 0; /* Custom property for nav item margin */
   --nav-item-link-hover: var(--color-primary); /* Custom property for nav item link hover color */
 }
 
