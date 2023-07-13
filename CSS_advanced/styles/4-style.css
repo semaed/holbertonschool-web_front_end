@@ -1,8 +1,21 @@
 /* styles/4-style.css */
 
   body {
+    color: var(--text-color);
     font-family: var(--font-family-base);
   }
+  a {
+    color: #161616;
+}
+.visually-hidden {
+    display: none;
+}
+.card-category {
+    color: var(--color-primary);
+}
+.section-tagline {
+    color: var(--color-primary);
+}
 
 :root {
     --color-primary: #d73953;
