@@ -13,26 +13,21 @@ html {
     line-height: var(--line-height-base);
   }
   
-  a {
+  a:link {
     color: #161616;
     text-decoration: none; /* Remove text decoration */
   }
-  
-  a[href]:link {
-    /* Styles for anchor elements containing a hyperlink */
-  }
-  
-  a[href]:visited {
+  a:visited {
     /* Styles for visited links */
     font-style: italic; /* Italicize the text */
   }
   
-  a[href]:hover {
+  a:hover {
     /* Styles for links on hover */
     text-decoration: underline; /* Add underline decoration */
   }
   
-  a[href]:active {
+  a:active {
     /* Styles for active links */
     background-color: var(--color-light-grey); /* Set background color using color-light-grey */
   }
