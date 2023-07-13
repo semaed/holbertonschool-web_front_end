@@ -111,12 +111,12 @@ a:active {
   margin: var(--nav-item-margin); /* Set margin on all sides to nav-item-margin */
 }
 
-.nab .nav-link {
+.nav .nav-link {
   display: block; /* Set display to block */
   padding: 0.5rem 1rem; /* Set padding using root element values */
 }
 
-.nav-link:hover {
+.nav .nav-link:hover {
   color: var(--nav-item-link-hover); /* Set foreground color on hover to nav-item-link-hover */
 }
 
