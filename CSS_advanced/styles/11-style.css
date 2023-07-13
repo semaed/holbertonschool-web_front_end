@@ -15,7 +15,7 @@ html {
   
   a {
     color: #161616;
-    text-decoration: none; /* Remove text decoration */
+    text-decoration: none;
   }
   
   .visually-hidden {
@@ -27,14 +27,14 @@ html {
   }
   
   .section-header {
-    text-align: var(--section-header-align); /* Horizontal alignment */
+    text-align: var(--section-header-align);
   }
   
   .section-tagline {
     color: var(--color-primary);
-    font-family: var(--font-family-title); /* Set font family to font-family-title */
-    font-weight: var(--font-weight-bold); /* Set font weight to font-weight-bold */
-    text-transform: var(--section-tagline-transform); /* Transform the text */
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+    text-transform: var(--section-tagline-transform);
   }
   
   :root {
@@ -56,8 +56,8 @@ html {
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
-    --section-header-align: center; /* Custom property for horizontal alignment of section headers */
-    --section-tagline-transform: uppercase; /* Custom property for text transformation of section tagline */
+    --section-header-align: center;
+    --section-tagline-transform: uppercase;
   }
   
   h1,

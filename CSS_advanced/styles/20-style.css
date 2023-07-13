@@ -1,9 +1,11 @@
+/* styles/20-style.css */
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-/* Comment: CSS reset */
+
 
 html {
     scroll-behavior: smooth;
-    font-size: 62.5%; /* Comment: Setting base font size to 10px */
+    font-size: 62.5%;
 }
 
 body {

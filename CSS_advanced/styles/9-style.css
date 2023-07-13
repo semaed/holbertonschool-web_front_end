@@ -15,7 +15,7 @@ html {
   
   a {
     color: #161616;
-    text-decoration: none; /* Remove text decoration */
+    text-decoration: none;
   }
   
   .visually-hidden {

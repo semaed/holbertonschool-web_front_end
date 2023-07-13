@@ -15,21 +15,18 @@ html {
   
   a:link {
     color: #161616;
-    text-decoration: none; /* Remove text decoration */
+    text-decoration: none;
   }
   a:visited {
-    /* Styles for visited links */
-    font-style: italic; /* Italicize the text */
+    font-style: italic;
   }
   
   a:hover {
-    /* Styles for links on hover */
-    text-decoration: underline; /* Add underline decoration */
+    text-decoration: underline;
   }
   
   a:active {
-    /* Styles for active links */
-    background-color: var(--color-light-grey); /* Set background color using color-light-grey */
+    background-color: var(--color-light-grey);
   }
   
   .visually-hidden {
@@ -41,22 +38,22 @@ html {
   }
   
   .section-header {
-    text-align: var(--section-header-align); /* Horizontal alignment */
+    text-align: var(--section-header-align);
   }
   
   .section-title {
-    font-family: var(--font-family-title); /* Set font family to font-family-title */
-    font-size: var(--font-size-xx-large); /* Set font size to font-size-xx-large */
-    font-weight: var(--font-weight-bold); /* Set font weight to font-weight-bold */
-    margin: var(--section-title-margin); /* Set the margin using section-title-margin */
-    color: var(--section-title-color); /* Set the text color using section-title-color */
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    margin: var(--section-title-margin);
+    color: var(--section-title-color);
   }
   
   .section-tagline {
     color: var(--color-primary);
-    font-family: var(--font-family-title); /* Set font family to font-family-title */
-    font-weight: var(--font-weight-bold); /* Set font weight to font-weight-bold */
-    text-transform: var(--section-tagline-transform); /* Transform the text */
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+    text-transform: var(--section-tagline-transform);
   }
   
   :root {
@@ -78,10 +75,10 @@ html {
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
-    --section-header-align: center; /* Custom property for horizontal alignment of section headers */
-    --section-tagline-transform: uppercase; /* Custom property for text transformation of section tagline */
-    --section-title-margin: 0; /* Custom property for section title margin */
-    --section-title-color: var(--color-black); /* Custom property for section title color */
+    --section-header-align: center;
+    --section-tagline-transform: uppercase;
+    --section-title-margin: 0;
+    --section-title-color: var(--color-black);
   }
   
   h1,
