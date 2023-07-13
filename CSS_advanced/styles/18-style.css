@@ -99,6 +99,7 @@ a:active {
   margin: 0; /* Set margin on all sides to 0 */
   padding: 0; /* Set padding on all sides to 0 */
   text-align: center; /* Center align the text */
+  list-style: none; /* Remove the default list styling */
 }
 
 .nav-item {
@@ -112,7 +113,7 @@ a:active {
 
 .nav-link {
   display: block; /* Set display to block */
-  padding: var(--root-element) var(--root-element); /* Set padding using root element values */
+  padding: var(--root-element) var(--root-element) calc(var(--root-element) / 2) var(--root-element); /* Set padding using root element values */
 }
 
 .nav-link:hover {
